@@ -1,15 +1,27 @@
 # 🎯 JavaScript Counter Application
 
-Una semplice applicazione web che simula il comportamento di un contatore (counter).
+Una semplice applicazione web che simula il comportamento di un contatore (counter), sviluppata in JavaScript puro (nessun framework, nessuna libreria).
 
 ## 🚀 Live Demo
-Puoi testare l'applicazione funzionante in tempo reale al seguente link:
-(https://github.com/lucreziagiordano001-coder/Counterapp/upload/main)
+Puoi testare l'applicazione funzionante al seguente link:
+[https://lucreziagiordano001-coder.github.io/Counterapp/](https://lucreziagiordano001-coder.github.io/Counterapp/)
+
+Repository: [https://github.com/lucreziagiordano001-coder/Counterapp](https://github.com/lucreziagiordano001-coder/Counterapp)
 
 ## 📋 Funzionalità
-- **Visualizzazione iniziale**: All'accesso della pagina, il contatore parte da `0`.
-- **Incremento (+)**: Cliccando sul pulsante `+`, il valore aumenta di 1.
-- **Decremento (−)**: Cliccando sul pulsante `−`, il valore diminuisce di 1.
-- **Interfaccia Dinamica**: Nessun elemento interattivo è scritto direttamente nell'HTML; tutto viene generato all'avvio tramite JavaScript.
-- **Feedback Visivo (Bonus)**: Il colore del numero cambia dinamicamente (Verde per numeri positivi, Rosso per i negativi, Nero per lo zero).
+- **Visualizzazione iniziale**: all'accesso alla pagina, il contatore parte da `0`.
+- **Incremento (+)**: cliccando sul pulsante `+`, il valore aumenta di 1.
+- **Decremento (−)**: cliccando sul pulsante `−`, il valore diminuisce di 1.
+- **Interfaccia dinamica**: nessun elemento interattivo è scritto nell'HTML; tutto viene creato all'avvio tramite JavaScript (manipolazione del DOM).
+- **Feedback visivo (bonus)**: il colore del numero cambia dinamicamente (verde per i positivi, rosso per i negativi, nero per lo zero).
 
+## 🗂️ Struttura del progetto
+```
+Counterapp/
+├── index.html
+├── README.md
+├── css/
+│   └── style.css
+└── js/
+    └── app.js
+```
