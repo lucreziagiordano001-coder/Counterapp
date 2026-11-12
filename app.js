@@ -17,15 +17,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const valueDisplay = document.createElement('div');
     valueDisplay.classList.add('counter-value');
     valueDisplay.textContent = count; // Valore iniziale: 0
+    valueDisplay.setAttribute('aria-live', 'polite');
 
     const buttonContainer = document.createElement('div');
     buttonContainer.classList.add('btn-container');
 
     const decrementBtn = document.createElement('button');
     decrementBtn.textContent = '−';
+    decrementBtn.type = 'button';
+    decrementBtn.setAttribute('aria-label', 'Diminuisci il contatore');
 
     const incrementBtn = document.createElement('button');
     incrementBtn.textContent = '+';
+    incrementBtn.type = 'button';
+    incrementBtn.setAttribute('aria-label', 'Aumenta il contatore');
 
     // 4. Funzione per aggiornare l'interfaccia e gestire i colori
     const updateDisplay = () => {
